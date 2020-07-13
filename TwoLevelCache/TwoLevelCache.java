@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class Aastha_2019224_FinalAssignment{
+public class TwoLevelCache{
     public static void main(String args[]){
         Scanner in = new Scanner(System.in);
         try{
