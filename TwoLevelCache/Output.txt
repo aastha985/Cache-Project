@@ -1,0 +1,482 @@
+2-WAY SET ASSOCIATIVE MAPPING
+
+Instruction: 1001001 1
+Cache Miss, Block Loaded at Cache 1 line 0(Set 0)
+Writing to Cache 1 line 0(Set 0)
+Cache 1
+0 1 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+Tags 1
+1001
+null
+null
+null
+Cache 2
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+Tags 2
+null
+null
+null
+null
+null
+null
+null
+null
+
+Instruction: 1110010 3
+Cache Miss, Block Loaded at Cache 1 line 1(Set 0)
+Writing to Cache 1 line 1(Set 0)
+Cache 1
+0 1 0 0 
+0 0 3 0 
+0 0 0 0 
+0 0 0 0 
+Tags 1
+1001
+1110
+null
+null
+Cache 2
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+Tags 2
+null
+null
+null
+null
+null
+null
+null
+null
+
+Instruction: 1111111 4
+Cache Miss, Block Loaded at Cache 1 line 2(Set 1)
+Writing to Cache 1 line 2(Set 1)
+Cache 1
+0 1 0 0 
+0 0 3 0 
+0 0 0 4 
+0 0 0 0 
+Tags 1
+1001
+1110
+1111
+null
+Cache 2
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+Tags 2
+null
+null
+null
+null
+null
+null
+null
+null
+
+Instruction: 1110011
+Cache Hit, Block present at Cache 1 line 1(Set 0)
+Data present in the address:0
+Cache 1
+0 1 0 0 
+0 0 3 0 
+0 0 0 4 
+0 0 0 0 
+Tags 1
+1001
+1110
+1111
+null
+Cache 2
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+Tags 2
+null
+null
+null
+null
+null
+null
+null
+null
+
+Instruction: 1110111 3
+Cache Miss, Block Loaded at Cache 1 line 3(Set 1)
+Writing to Cache 1 line 3(Set 1)
+Cache 1
+0 1 0 0 
+0 0 3 0 
+0 0 0 4 
+0 0 0 3 
+Tags 1
+1001
+1110
+1111
+1110
+Cache 2
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+Tags 2
+null
+null
+null
+null
+null
+null
+null
+null
+
+Instruction: 0010011
+Cache Miss, Block Loaded at Cache 2 line 0(Set 0)
+Data present in the address:0
+Cache 1
+0 1 0 0 
+0 0 3 0 
+0 0 0 4 
+0 0 0 3 
+Tags 1
+1001
+1110
+1111
+1110
+Cache 2
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+Tags 2
+001
+null
+null
+null
+null
+null
+null
+null
+
+Instruction: 1001001
+Cache Hit, Block present at Cache 1 line 0(Set 0)
+Data present in the address:1
+Cache 1
+0 1 0 0 
+0 0 3 0 
+0 0 0 4 
+0 0 0 3 
+Tags 1
+1001
+1110
+1111
+1110
+Cache 2
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+Tags 2
+001
+null
+null
+null
+null
+null
+null
+null
+
+Instruction: 1000101 29
+Cache Miss, Block Loaded at Cache 2 line 2(Set 1)
+Writing to Cache 2 line 2(Set 1)
+Cache 1
+0 1 0 0 
+0 0 3 0 
+0 0 0 4 
+0 0 0 3 
+Tags 1
+1001
+1110
+1111
+1110
+Cache 2
+0 0 0 0 
+0 0 0 0 
+0 29 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+Tags 2
+001
+null
+100
+null
+null
+null
+null
+null
+
+Instruction: 1101010 23
+Cache Miss, Block Loaded at Cache 2 line 4(Set 2)
+Writing to Cache 2 line 4(Set 2)
+Cache 1
+0 1 0 0 
+0 0 3 0 
+0 0 0 4 
+0 0 0 3 
+Tags 1
+1001
+1110
+1111
+1110
+Cache 2
+0 0 0 0 
+0 0 0 0 
+0 29 0 0 
+0 0 0 0 
+0 0 23 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+Tags 2
+001
+null
+100
+null
+110
+null
+null
+null
+
+Instruction: 1111011
+Cache Miss, Block Loaded at Cache 2 line 5(Set 2)
+Data present in the address:0
+Cache 1
+0 1 0 0 
+0 0 3 0 
+0 0 0 4 
+0 0 0 3 
+Tags 1
+1001
+1110
+1111
+1110
+Cache 2
+0 0 0 0 
+0 0 0 0 
+0 29 0 0 
+0 0 0 0 
+0 0 23 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+Tags 2
+001
+null
+100
+null
+110
+111
+null
+null
+
+Instruction: 1100000
+Cache Miss, Block Loaded at Cache 2 line 1(Set 0)
+Data present in the address:0
+Cache 1
+0 1 0 0 
+0 0 3 0 
+0 0 0 4 
+0 0 0 3 
+Tags 1
+1001
+1110
+1111
+1110
+Cache 2
+0 0 0 0 
+0 0 0 0 
+0 29 0 0 
+0 0 0 0 
+0 0 23 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+Tags 2
+001
+110
+100
+null
+110
+111
+null
+null
+
+Instruction: 1000000 112
+Cache Miss, Block Loaded at Cache 1 line 1(Set 0)
+Writing to Cache 1 line 1(Set 0)
+Cache 1
+0 1 0 0 
+112 0 0 0 
+0 0 0 4 
+0 0 0 3 
+Tags 1
+1001
+1000
+1111
+1110
+Cache 2
+0 0 0 0 
+0 0 0 0 
+0 29 0 0 
+0 0 0 0 
+0 0 23 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+Tags 2
+001
+110
+100
+null
+110
+111
+null
+null
+
+Instruction: 1111111
+Cache Hit, Block present at Cache 1 line 2(Set 1)
+Data present in the address:4
+Cache 1
+0 1 0 0 
+112 0 0 0 
+0 0 0 4 
+0 0 0 3 
+Tags 1
+1001
+1000
+1111
+1110
+Cache 2
+0 0 0 0 
+0 0 0 0 
+0 29 0 0 
+0 0 0 0 
+0 0 23 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+Tags 2
+001
+110
+100
+null
+110
+111
+null
+null
+
+Instruction: 0000000
+Cache Miss, Loaded block at Cache 1 line 0(Set 0)
+Data present in the address:0
+Cache 1
+0 0 0 0 
+112 0 0 0 
+0 0 0 4 
+0 0 0 3 
+Tags 1
+0000
+1000
+1111
+1110
+Cache 2
+0 0 0 0 
+0 0 0 0 
+0 29 0 0 
+0 0 0 0 
+0 0 23 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+Tags 2
+001
+110
+100
+null
+110
+111
+null
+null
+
+Instruction: 1111111
+Cache Hit, Block present at Cache 1 line 2(Set 1)
+Data present in the address:4
+Cache 1
+0 0 0 0 
+112 0 0 0 
+0 0 0 4 
+0 0 0 3 
+Tags 1
+0000
+1000
+1111
+1110
+Cache 2
+0 0 0 0 
+0 0 0 0 
+0 29 0 0 
+0 0 0 0 
+0 0 23 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+Tags 2
+001
+110
+100
+null
+110
+111
+null
+null
+
